@@ -2,6 +2,8 @@
 
 AI-powered web app to help users understand and manage complex legal documents.
 
+**Link to LegalEase:** [Demo Link](https://spry-shade-471512-s6.web.app/games)
+
 ## Monorepo Layout
 
 - backend/ (Django + DRF + GCP + Firebase auth)
