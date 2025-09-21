@@ -1,0 +1,189 @@
+# Environment files - NEVER commit these
+.env
+.env.*
+*.env
+.env.production.yaml
+.env.development.yaml
+
+# Google Cloud & Firebase credentials - CRITICAL SECURITY
+service-account.json
+dev-service-account.json
+*service-account*.json
+*.pem
+*.p12
+*.pfx
+*.key
+gcloud-service-key.json
+firebase-adminsdk-*.json
+google-credentials.json
+
+# Django specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations (optional - consider your workflow)
+# migrations/
+
+# Django collected static files
+/static/
+staticfiles/
+/media/
+
+# Django session files
+django_session*
+
+# Django cache
+.cache/
+
+# Local development database
+local.db
+*.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+.venv/
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Cloud Build files
+cloudbuild.yaml
+.gcloudignore
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Log files
+logs/
+*.log
+
+# Configuration override files
+local_config.py
+development.py
+production.py
+
+# SSL certificates
+*.crt
+*.cert
+*.ca-bundle
